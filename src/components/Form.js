@@ -32,12 +32,12 @@ export default function Form() {
   }
 
   return (
-    <div className='container' style={{backgroundColor:"#696969"}}>
-
+    <div className='container'>
 
       <div className='row g-5 mt-5'>
         <form onSubmit={handleInput}>
           <div className="row g-3">
+
           <div className="col-sm-12">
               <label for="npm" className="form-label">NPM</label>
               <input type="number" className="form-control" id="npm" value={npm} placeholder=""
@@ -51,21 +51,21 @@ export default function Form() {
             </div>
 
             <div className="col-sm-12">
-              <label for="firstName" className="form-label">First name</label>
+              <label for="firstName" className="form-label">First Name</label>
               <input type="text" className="form-control" id="firstName" value={firstName} placeholder=""
                 onChange={(event) => setFirstName(event.target.value)}
                 required />
             </div>
 
             <div className="col-sm-12">
-              <label for="middleName" className="form-label">Middle name</label>
+              <label for="middleName" className="form-label">Middle Name</label>
               <input type="text" className="form-control" id="middleName" value={middleName} placeholder=""
                 onChange={(event) => setMiddleName(event.target.value)}
               />
             </div>
 
             <div className="col-sm-12">
-              <label for="lastName" className="form-label">Last name</label>
+              <label for="lastName" className="form-label">Last Name</label>
               <input type="text" className="form-control" id="lastName" value={lastName} placeholder=""
                 onChange={(event) => setLastName(event.target.value)}
                 required />
@@ -74,13 +74,12 @@ export default function Form() {
             <div className="col-12">
               <label for="address" className="form-label">Birthdate</label>
               <DatePicker
-                className="form-control"
+                className='form-control'
                 selected={date}
-                placeholderText='Enter Birthdate'
                 dateFormat="yyyy-MM-dd"
-                required={true}
-                onChange={(date) => {setDate(date)}}
-                    />
+                onChange={(date) => setDate(date)}
+                required
+              />
             </div>
 
             {/* <button className="w-100 btn btn-primary btn-lg" type="submit">Submit</button> */}
