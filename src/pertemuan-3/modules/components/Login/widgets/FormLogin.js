@@ -12,7 +12,7 @@ function App() {
   const handleLogin = (event) => {
     event.preventDefault();
 
-    if (email === "arya@gmail.com" && password === "arya") {
+    if (email === "silviani@gmail.com" && password === "silviani") {
       setIsLoggedIn(true);
       <Navigate to='/home' replace={true} />
       setError("");
@@ -36,7 +36,7 @@ function App() {
           <input
             class="form-control"
             type="email"
-            placeholder="Input Email"
+            placeholder="Masukan Email"
             value={email}
             onChange={(event) => setEmail(event.target.value)} />
         </div>
@@ -44,7 +44,7 @@ function App() {
           <label for="exampleInputPassword1">Kata Sandi</label>
           <input class="form-control"
             type="password"
-            placeholder="Input Kata Sandi"
+            placeholder="Masukan Password"
             value={password}
             onChange={(event) => setPassword(event.target.value)} />
         </div>
