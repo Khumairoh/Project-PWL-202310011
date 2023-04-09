@@ -40,7 +40,7 @@ export default function FormProfile() {
             <div style={{marginTop:'7rem'}} className='card '>
                 <div className="card-header">
                     <h3 style={{justifyContent:'center', alignItems: 'center', textAlign:'center'}} className="card-title align-items-start flex-column">
-                        <span style={{ textAlign:'center' }} className="card-label fw-bolder text-dark">Form add data user</span><br/>
+                        <span style={{ textAlign:'center' }} className="card-label fw-bolder text-dark">Form Add Data User</span><br/>
                         <span className="text-gray-400 mt-1 fw-bold fs-6">Please fill up the form with correctly</span>
                     </h3>
                 </div>
