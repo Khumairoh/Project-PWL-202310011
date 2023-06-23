@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.pnav{
+    background-color: #696969;
+    color: white;
+    height: 80px;
+}
+
+.Nlogo{
+    margin-top: -30px;
+    margin-left:     50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Croissant One;
+    /* position: absolute; */
+    cursor: pointer;
+}
+
+.logoall{
+    margin-top: 12rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.namenav{
+    color: white;
+}
+
